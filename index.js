@@ -113,10 +113,10 @@ Person.prototype.play = function(favoriteToy){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1.
-  2.
-  3.
-  4.
+  1. A function contained in global scope, the values of 'this' inside of that function will be the window object.
+  2. A function called by a preceding dot, the object befoe that dot is this.
+  3. When a constructor function is used, 'this' refers to the specific instance of the object that is created and returned by the constructor function.
+  4. The call or apply method is used to explicitly define 'this'
 */
 
 
